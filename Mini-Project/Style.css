@@ -1,0 +1,38 @@
+nav span{
+    color: rgb(201, 166, 10);
+}
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url('images/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.loginform{
+     background-color: white ;
+     width: 30%;
+     height: auto;
+     margin: 7% auto;
+     padding: 25px 10px;
+
+}
+
+@media screen and(max-width:600px)
+{
+    .loginform
+    {
+        width: 90%;
+        margin: 35% auto;
+    }
+
+}
